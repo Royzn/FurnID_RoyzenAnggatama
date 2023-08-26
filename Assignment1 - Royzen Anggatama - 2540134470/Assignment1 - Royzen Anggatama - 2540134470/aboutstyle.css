@@ -1,0 +1,216 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
+  list-style-type: none;
+  list-style: none;
+}
+
+body{
+  max-width: 2500px;
+  margin: auto;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+.head {
+  height: 70vh;
+  width: 100%;
+  background-image: url("./foto/fototentangkami.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.flex {
+  position: relative;
+  padding: 1.75rem 2.875rem;
+  overflow: hidden;
+}
+
+.logo {
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 1000;
+  float: left;
+}
+
+.navigate {
+  margin: 0;
+  padding: 0;
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navigate li {
+  right: auto;
+  float: left;
+  padding: 10px;
+  display: inline block;
+  text-align: center;
+  font-weight: 550;
+}
+
+.navigate li a {
+  display: block;
+  padding: 3px 10px;
+  color: white;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.navigate li a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  transition-delay: 75ms;
+}
+
+.search {
+  float: right;
+  padding: 4px 13px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.search img {
+  float: left;
+  height: 20px;
+  width: 20px;
+}
+
+.search input {
+  border: none;
+  background: none;
+  outline: none;
+  float: right;
+  padding: 0px 10px;
+}
+
+.title {
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
+
+.title h1 {
+  font-size: 77.6px;
+  font-weight: 1000;
+}
+
+.title p {
+  margin-top: 30px;
+  font-size: 48px;
+}
+
+.teks-main {
+  text-align: center;
+  margin-top: 74px;
+  font-size: 38.83px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 79px;
+}
+
+.teks-main p {
+  margin-top: 53px;
+  font-size: 24px;
+}
+
+.mid {
+  margin: 0 5% 74px 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mid p {
+  font-size: 26px;
+  font-weight: 1000;
+  transform: rotate(-90deg);
+  height: fit-content;
+  text-align: center;
+  margin: 18% 0;
+}
+
+.img-top {
+  margin-bottom: 15%;
+}
+
+.img-bot {
+  margin-top: 15%;
+}
+
+.foot {
+  background-color: #1e5218;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot h1 {
+  color: white;
+  font-size: 26px;
+  margin: 80px 148px;
+  transform: rotate(-90deg);
+  font-weight: 1000;
+}
+
+.keterangan {
+  color: white;
+  margin: 75px 139px;
+  display: flex;
+}
+
+.keterangan a {
+  color: white;
+}
+
+.keterangan a:hover {
+  opacity: 60%;
+}
+
+.keterangan div {
+  font-size: 19px;
+  font-weight: bolder;
+}
+
+.judul {
+  margin-bottom: 10px;
+}
+
+.keterangan-kanan {
+  padding-left: 74px;
+}
+
+.keterangan-kanan a {
+  padding-top: 20px;
+}
+
+.keterangan ol li {
+  font-weight: 400;
+  text-align: left;
+}
+
+.keterangan ol li:hover {
+  opacity: 60%;
+}
+
+.sosmed {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
